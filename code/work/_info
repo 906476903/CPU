@@ -1,0 +1,519 @@
+m255
+K4
+z2
+13
+cModel Technology
+Z0 dE:/CPU/modelsim/examples
+!s112 0.1
+!i10d 8192
+!i10e 25
+!i10f 100
+T_opt
+VWlZ>iH7b]L5gA2@Z>eU5e0
+04 20 4 work openmips_min_sopc_tb fast 0
+=1-14dda98f6152-57d00c7c-217-21dc
+Z1 o-quiet -auto_acc_if_foreign -work work +acc
+n@_opt
+Z2 OL;O;10.2c;57
+Z3 dE:/CPU/modelsim/examples
+!s110 1473252476
+T_opt1
+V86[9_6f_78TME7X0cI[Cd1
+04 8 4 work cpu_test fast 0
+=1-14dda98f6152-57d0f2d9-1a3-12ac
+R1
+n@_opt1
+R2
+R3
+!s110 1473311449
+T_opt2
+!s110 1473312236
+V>TP7ahPXDEITAMVJ21?1^2
+04 10 4 work cpu_mips32 fast 0
+=1-14dda98f6152-57d0f5eb-3e0-a78
+R1
+n@_opt2
+R2
+vcpu_mips32
+Z4 !s110 1473312229
+IWF<XKH]:1;gW=UOiB:ion3
+Z5 V`JN@9S9cnhjKRR_L]QIcM3
+Z6 dE:/CPU/code/CPU
+w1473312039
+8E:/CPU/code/CPU/cpu_mips32.v
+FE:/CPU/code/CPU/cpu_mips32.v
+L0 1
+Z7 OL;L;10.2c;57
+r1
+31
+Z8 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!s100 NB?`2gn3I08AzM<V_>a^<2
+!s90 -reportprogress|300|-work|work|-vopt|E:/CPU/code/CPU/cpu_mips32.v|
+!s108 1473312229.442000
+!s107 E:/CPU/code/CPU/cpu_mips32.v|
+!i10b 1
+!s85 0
+!i111 0
+vcpu_mips32_sopc
+IeU3L`;`GTJ?OP3SZnLMjg0
+R5
+R6
+w1473310678
+8E:/CPU/code/CPU/cpu_mips32_sopc.v
+FE:/CPU/code/CPU/cpu_mips32_sopc.v
+L0 1
+R7
+r1
+31
+R8
+!s110 1473311283
+!s100 f<BK<Lo<F5dJSa246ML]J3
+!s108 1473311283.902000
+!s107 E:/CPU/code/CPU/cpu_mips32_sopc.v|
+!s90 -reportprogress|300|-work|work|-vopt|E:/CPU/code/CPU/cpu_mips32_sopc.v|
+!i10b 1
+!s85 0
+!i111 0
+vcpu_test
+R4
+IA[k^A3W;P;`^d?:B7d6Cm0
+R5
+R6
+w1473311887
+8E:/CPU/code/CPU/cpu_test.v
+FE:/CPU/code/CPU/cpu_test.v
+L0 3
+R7
+r1
+31
+R8
+!s100 ZSV[eVe3Jih;4z:dX2S2h3
+!s90 -reportprogress|300|-work|work|-vopt|E:/CPU/code/CPU/cpu_test.v|
+!s108 1473312229.270000
+!s107 E:/CPU/code/CPU/cpu_test.v|
+!i10b 1
+!s85 0
+!i111 0
+vctrl
+IFR5lNOk^bh=8EliB_oNjC2
+R5
+R6
+w1473241079
+8E:/CPU/code/CPU/ctrl.v
+FE:/CPU/code/CPU/ctrl.v
+L0 1
+R7
+r1
+31
+R8
+Z9 !s110 1473312227
+!s100 J^A0f3HeInmRS[g>=`LdS3
+!s90 -reportprogress|300|-work|work|-vopt|E:/CPU/code/CPU/ctrl.v|
+!s108 1473312227.161000
+!s107 E:/CPU/code/CPU/ctrl.v|
+!i10b 1
+!s85 0
+!i111 0
+vdata_ram
+Z10 !s110 1473311583
+IN_W<?11==mR>Wg11NL4O<2
+R5
+R6
+w1473241253
+Fdata_ram.v
+Z11 8E:/CPU/code/CPU/inst_rom.v
+Z12 FE:/CPU/code/CPU/inst_rom.v
+L0 3
+R7
+r1
+31
+Z13 !s108 1473311583.607000
+Z14 !s107 data_ram.v|E:/CPU/code/CPU/inst_rom.v|
+Z15 !s90 -reportprogress|300|-work|work|-vopt|E:/CPU/code/CPU/inst_rom.v|
+R8
+!s100 UZFD4Eg5`m87PTQZM]PXh3
+!i10b 1
+!s85 0
+!i111 0
+vdiv
+R9
+IdT0EXQ_2d3O43NVJQSWBS2
+R5
+R6
+w1473243871
+8E:/CPU/code/CPU/div.v
+FE:/CPU/code/CPU/div.v
+L0 1
+R7
+r1
+31
+R8
+!s100 KPLKSMIK02WUmRHJVCCk53
+!s90 -reportprogress|300|-work|work|-vopt|E:/CPU/code/CPU/div.v|
+!s108 1473312227.239000
+!s107 E:/CPU/code/CPU/div.v|
+!i10b 1
+!s85 0
+!i111 0
+vex
+R9
+I6;>;IeJHGa@KScG14]dFX0
+R5
+R6
+w1473252352
+8E:/CPU/code/CPU/ex.v
+FE:/CPU/code/CPU/ex.v
+L0 3
+R7
+r1
+31
+R8
+!s100 SCL_YYZB0bMATlY_V`WGS3
+!s90 -reportprogress|300|-work|work|-vopt|E:/CPU/code/CPU/ex.v|
+!s108 1473312227.457000
+!s107 instruction.v|E:/CPU/code/CPU/ex.v|
+!i10b 1
+!s85 0
+!i111 0
+vex_mem
+R9
+I3`>IeYzHS4N6R2Pd=I3Gj3
+R5
+R6
+w1473252353
+8E:/CPU/code/CPU/ex_mem.v
+FE:/CPU/code/CPU/ex_mem.v
+L0 3
+R7
+r1
+31
+R8
+!s100 G17KAF>O@Q8dHI4dC7RY<0
+!s90 -reportprogress|300|-work|work|-vopt|E:/CPU/code/CPU/ex_mem.v|
+!s108 1473312227.645000
+!s107 instruction.v|E:/CPU/code/CPU/ex_mem.v|
+!i10b 1
+!s85 0
+!i111 0
+vhilo_reg
+R9
+IJGGaUElT?oT9^]^8OKeB<3
+R5
+R6
+w1473244552
+8E:/CPU/code/CPU/hilo_reg.v
+FE:/CPU/code/CPU/hilo_reg.v
+L0 1
+R7
+r1
+31
+R8
+!s100 6`cf?2lM`D?`dmaK_9h7b0
+!s90 -reportprogress|300|-work|work|-vopt|E:/CPU/code/CPU/hilo_reg.v|
+!s108 1473312227.848000
+!s107 E:/CPU/code/CPU/hilo_reg.v|
+!i10b 1
+!s85 0
+!i111 0
+vid
+IzHE0EeIg[;n9baAVk>1CK2
+R5
+R6
+w1473252354
+8E:/CPU/code/CPU/id.v
+FE:/CPU/code/CPU/id.v
+L0 3
+R7
+r1
+31
+R8
+Z16 !s110 1473312228
+!s100 `K0l5XThCn1WoRMDmSlaS3
+!s90 -reportprogress|300|-work|work|-vopt|E:/CPU/code/CPU/id.v|
+!s108 1473312228.036000
+!s107 instruction.v|E:/CPU/code/CPU/id.v|
+!i10b 1
+!s85 0
+!i111 0
+vid_ex
+R16
+I@f>]hzFCEl;FJYkHMf6De3
+R5
+R6
+w1473252355
+8E:/CPU/code/CPU/id_ex.v
+FE:/CPU/code/CPU/id_ex.v
+L0 3
+R7
+r1
+31
+R8
+!s100 QOM>F[2o1GUBhOoERWm_;2
+!s90 -reportprogress|300|-work|work|-vopt|E:/CPU/code/CPU/id_ex.v|
+!s108 1473312228.254000
+!s107 instruction.v|E:/CPU/code/CPU/id_ex.v|
+!i10b 1
+!s85 0
+!i111 0
+vif_id
+R16
+IIoXcPjje9PdEzPJN9LCoe2
+R5
+R6
+w1473244675
+8E:/CPU/code/CPU/if_id.v
+FE:/CPU/code/CPU/if_id.v
+L0 1
+R7
+r1
+31
+R8
+!s100 b<5X`a[FPZAD=W[6Y3JnZ0
+!s90 -reportprogress|300|-work|work|-vopt|E:/CPU/code/CPU/if_id.v|
+!s108 1473312228.411000
+!s107 E:/CPU/code/CPU/if_id.v|
+!i10b 1
+!s85 0
+!i111 0
+vinst_rom
+R10
+IjX7Ag8gTNKdmZE0NWHRcS1
+R5
+R6
+w1473155808
+R11
+R12
+L0 3
+R7
+r1
+31
+R13
+R14
+R15
+R8
+!s100 :GaWBmY25a<ooYJLSRVmA2
+!i10b 1
+!s85 0
+!i111 0
+vinstr_mem
+IN<nH`_B7U9l_m@;zeeoAB1
+R5
+R6
+Z17 w1473312218
+Z18 8E:/CPU/code/CPU/instr_mem.v
+Z19 FE:/CPU/code/CPU/instr_mem.v
+L0 3
+R7
+r1
+31
+Z20 !s108 1473312229.957000
+Z21 !s107 main_mem.v|E:/CPU/code/CPU/instr_mem.v|
+Z22 !s90 -reportprogress|300|-work|work|-vopt|E:/CPU/code/CPU/instr_mem.v|
+R8
+!s110 1473312230
+!i10b 1
+!s100 S4VV]X310za@PQFXz8VT=3
+!s85 0
+!i111 0
+vLLbit_reg
+R16
+I`H0cD@_eP<>cBkTmz8zL=2
+R5
+R6
+w1473244892
+8E:/CPU/code/CPU/LLbit_reg.v
+FE:/CPU/code/CPU/LLbit_reg.v
+L0 1
+R7
+r1
+31
+R8
+n@l@lbit_reg
+!s100 >Lj_bm4YlL>IJ00ZQ2L0A1
+!s90 -reportprogress|300|-work|work|-vopt|E:/CPU/code/CPU/LLbit_reg.v|
+!s108 1473312228.551000
+!s107 E:/CPU/code/CPU/LLbit_reg.v|
+!i10b 1
+!s85 0
+!i111 0
+vmain_mem
+R4
+IMiEc;N_UTGI@jd16<D<Zk0
+R5
+R6
+R17
+Fmain_mem.v
+R18
+R19
+L0 3
+R7
+r1
+31
+R20
+R21
+R22
+R8
+!i10b 1
+!s100 UBn1[n35VK>J:@JOgN:bE2
+!s85 0
+!i111 0
+vmem
+R16
+I84D0:mb:[:SX6MWC<?<1i0
+R5
+R6
+w1473252422
+8E:/CPU/code/CPU/mem.v
+FE:/CPU/code/CPU/mem.v
+L0 3
+R7
+r1
+31
+R8
+!s100 NUWo<oM4mYE[IRoF3JY710
+!s90 -reportprogress|300|-work|work|-vopt|E:/CPU/code/CPU/mem.v|
+!s108 1473312228.661000
+!s107 instruction.v|E:/CPU/code/CPU/mem.v|
+!i10b 1
+!s85 0
+!i111 0
+vmem_wb
+R16
+IHT67obM=S1>11a`4UnF[`3
+R5
+R6
+w1473228326
+8E:/CPU/code/CPU/mem_wb.v
+FE:/CPU/code/CPU/mem_wb.v
+L0 1
+R7
+r1
+31
+R8
+!s100 ]ZT3eAONXMWBOdV>Q]HF52
+!s90 -reportprogress|300|-work|work|-vopt|E:/CPU/code/CPU/mem_wb.v|
+!s108 1473312228.801000
+!s107 E:/CPU/code/CPU/mem_wb.v|
+!i10b 1
+!s85 0
+!i111 0
+vopenmips
+IEZ?6WJ`OX=PLoE0hAK3Ba3
+R5
+R6
+w1473252290
+8E:/CPU/code/CPU/openmips.v
+FE:/CPU/code/CPU/openmips.v
+L0 1
+R7
+r1
+31
+R8
+Z23 !s110 1473252467
+!s90 -reportprogress|300|-work|work|-vopt|E:/CPU/code/CPU/openmips.v|
+!s100 9U9NH^YF<5cYYE^CaVmG@0
+!s108 1473252467.079000
+!s107 E:/CPU/code/CPU/openmips.v|
+!i10b 1
+!s85 0
+!i111 0
+vopenmips_min_sopc
+R23
+IfE`2SI<1P>f`R1EI91Rd:1
+R5
+R6
+w1473247715
+8E:/CPU/code/CPU/openmips_min_sopc.v
+FE:/CPU/code/CPU/openmips_min_sopc.v
+L0 1
+R7
+r1
+31
+R8
+!s100 ?XD`LZ1N_ZN1TY`jlVCD]0
+!s90 -reportprogress|300|-work|work|-vopt|E:/CPU/code/CPU/openmips_min_sopc.v|
+!s108 1473252467.235000
+!s107 E:/CPU/code/CPU/openmips_min_sopc.v|
+!i10b 1
+!s85 0
+!i111 0
+vopenmips_min_sopc_tb
+R23
+Idgll`mCgj^44?LBiMK6f`0
+R5
+R6
+w1473240696
+8E:/CPU/code/CPU/openmips_min_sopc_tb.v
+FE:/CPU/code/CPU/openmips_min_sopc_tb.v
+L0 3
+R7
+r1
+31
+R8
+!s100 `CVXY;Q1Y?WH0Mn[l=?062
+!s90 -reportprogress|300|-work|work|-vopt|E:/CPU/code/CPU/openmips_min_sopc_tb.v|
+!s108 1473252467.392000
+!s107 E:/CPU/code/CPU/openmips_min_sopc_tb.v|
+!i10b 1
+!s85 0
+!i111 0
+vpc_reg
+IZZI3>63?M?PU[AB4BND9[2
+R5
+R6
+w1473252263
+8E:/CPU/code/CPU/pc_reg.v
+FE:/CPU/code/CPU/pc_reg.v
+L0 1
+R7
+r1
+31
+R8
+R4
+!s100 VD]Ybd7QlET8MO`?1K^JR3
+!s90 -reportprogress|300|-work|work|-vopt|E:/CPU/code/CPU/pc_reg.v|
+!s108 1473312228.973000
+!s107 E:/CPU/code/CPU/pc_reg.v|
+!i10b 1
+!s85 0
+!i111 0
+vregfile
+IK0zml4B3zn7T0ZOZ;JIod2
+R5
+R6
+w1473247820
+8E:/CPU/code/CPU/regfile.v
+FE:/CPU/code/CPU/regfile.v
+L0 1
+R7
+r1
+31
+R8
+!s100 [WU19h_mK41Db04:N;MXh3
+!s90 -reportprogress|300|-work|work|-vopt|E:/CPU/code/CPU/regfile.v|
+!s110 1473311581
+!s108 1473311581.904000
+!s107 E:/CPU/code/CPU/regfile.v|
+!i10b 1
+!s85 0
+!i111 0
+vregister
+R4
+I_W7L`A6410ozIEg_lUmlA0
+R5
+R6
+w1473311946
+8E:/CPU/code/CPU/register.v
+FE:/CPU/code/CPU/register.v
+L0 1
+R7
+r1
+31
+R8
+!s100 X11ejkec`K_dZne?0PCmX3
+!s90 -reportprogress|300|-work|work|-vopt|E:/CPU/code/CPU/register.v|
+!s108 1473312229.817000
+!s107 E:/CPU/code/CPU/register.v|
+!i10b 1
+!s85 0
+!i111 0
